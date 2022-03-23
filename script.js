@@ -45,7 +45,7 @@ const timerInterval = setInterval(()=>{
         }
         Timer.innerHTML = `${m.toLocaleString('en', {minimumIntegerDigits:2,minimumFractionDigits:0,useGrouping:false})}:${s.toLocaleString('en', {minimumIntegerDigits:2,minimumFractionDigits:2,useGrouping:false})}`
     }
-}, 10)
+}, 20)
 
 // Starting Timer
 const checkTimer = setInterval(()=>{
